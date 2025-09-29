@@ -10,7 +10,7 @@ export class CarsController {
 
     carsService.loadCars()
 
-    // this.drawCarListings() loadCars triggers our observer, so this is no longer needed
+    // this.drawCarListings() //loadCars triggers our observer, so this is no longer needed
   }
 
   drawCarListings() {

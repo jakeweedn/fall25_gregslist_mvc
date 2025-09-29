@@ -46,7 +46,7 @@ class ObservableAppState extends EventEmitter {
 
 
 
-    })
+    }),
 
 
 
