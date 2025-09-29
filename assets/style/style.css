@@ -35,3 +35,13 @@ label {
 .car-border {
   border: inset 10px black;
 }
+
+.house-border {
+
+  border: inset 10px yellow;
+}
+
+.guitar-border {
+
+  border: inset 10px green;
+}

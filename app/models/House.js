@@ -20,12 +20,12 @@ export class House {
         <div class="col-md-6 mb-3">
         
 
-        <div class="shadow position-relative car-border" style="border-color: blue;">
+         <div class="shadow position-relative house-border">
 
         <img src= ${this.imgUrl} alt = ${this.year}, ${this.price} class = "house-img img-fluid">
        
         <h3> ${this.year},  $ ${this.price}, ${this.sqft} sq. ft., ${this.description} </h3>
-        <p>  </p>
+       
 
         
         <button onclick="app.housesController.deleteHouse('${this.id}')" class=" btn btn-secondary m-2"> Delete House 🚮</button>  

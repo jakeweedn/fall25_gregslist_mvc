@@ -1,4 +1,5 @@
 import { Car } from './models/Car.js'
+import { Guitar } from './models/Guitar.js'
 import { House } from './models/House.js'
 import { EventEmitter } from './utils/EventEmitter.js'
 import { createObservableProxy } from './utils/ObservableProxy.js'
@@ -49,6 +50,43 @@ class ObservableAppState extends EventEmitter {
     }),
 
 
+
+  ]
+
+  guitars = [
+
+    new Guitar({
+
+      make: 'Gibson',
+      model: 'Les Paul',
+      price: 2099,
+      color: 'Bourbon Burst',
+      numberOfStrings: 6,
+      imgUrl: "https://media.sweetwater.com/m/products/image/f80f7646d0ESzilyWblogHiLOjPio3al6c02QLxw.jpg?quality=82&height=750&ha=f80f7646d0bc8a2a",
+
+
+    }),
+
+    new Guitar({
+
+      make: 'Ibanez',
+      model: 'TOD70',
+      price: 1799,
+      color: 'Silver',
+      numberOfStrings: 7,
+      imgUrl: "https://media.sweetwater.com/m/products/image/25c1bdae69pmmtVEGSUsB9JHpvjpwFf9WqKVf9Bx.png?quality=82&height=750&ha=25c1bdae69d6b7e0",
+
+    }),
+
+    new Guitar({
+
+      make: 'Ibanez',
+      model: 'RG8',
+      price: 499,
+      color: 'White',
+      numberOfStrings: 8,
+      imgUrl: "https://media.musicarts.com/is/image/MMGS7/L97624000001000-00-2000x2000.jpg",
+    }),
 
   ]
 
