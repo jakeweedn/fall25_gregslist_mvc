@@ -124,28 +124,35 @@
       <div class="row my-3">
         <div class="col-md-6">
 
-          <form action="">
+          <form onsubmit="app.guitarsController.submitGuitar()" class="sticky-top">
 
             <div>
               <label for="guitar-make"> Guitar Make </label>
-              <input id="guitar-make" type="text" class="w-100">
+              <input id="guitar-make" type="text" name="make" class="w-100">
 
             </div>
 
             <div>
               <label for="guitar-model"> Guitar Model</label>
-              <input id="guitar-make" type="text" class="w-100">
+              <input id="guitar-make" type="text" name="model" class="w-100">
 
             </div>
 
             <div>
               <label for="guitar-price"> Guitar Price</label>
-              <input id="guitar-price" type="number" class="w-100">
+              <input id="guitar-price" type="number" name="price" class="w-100">
 
             </div>
 
             <div>
+              <label for="guitar-imgUrl"> Img URL </label>
+              <input type="url" name="imgUrl" id="guitar-imgUrl" name="imgUrl" class="w-100">
 
+            </div>
+
+            <div class="mt-3">
+              <button type="reset"> Reset </button>
+              <button type="submit"> Submit </button>
             </div>
 
 

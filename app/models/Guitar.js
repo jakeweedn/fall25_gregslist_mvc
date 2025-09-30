@@ -4,7 +4,7 @@ export class Guitar {
 
     constructor(data) {
 
-        this.id = data.id || generateId
+        this.id = data.id || generateId();
         this.make = data.make
         this.model = data.model
         this.price = data.price
